@@ -1,15 +1,14 @@
-# 🚀 Welcome to your new awesome project!
 
-This project has been created using **webpack-cli**, you can now run
+### Links
 
-```
-npm run build
-```
+- Live Site: [Demo](https://test-work-02-07.vercel.app/)
 
-or
+### Built with
 
-```
-yarn build
-```
+- Semantic HTML5 markup
+- SCSS properties
+- Flexbox
+- Mobile-first workflow
 
-to bundle your application
+ 
+   
