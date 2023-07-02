@@ -1,0 +1,93 @@
+.card__wrap {
+  width: 100%;
+}
+
+.header {
+  border-bottom: 1px solid var(--color6);
+  margin-bottom: 80px;
+  text-align: center;
+  position: relative;
+}
+
+.card__heading {
+  color: var(--color1);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.blocks__wrap {
+  @include breakpoint(desktop) {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.header__menu__btn {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  bottom: 10px;
+  width: 35px;
+  height: 20px;
+  margin: auto;
+  border: none;
+  border-top: 2px solid black;
+  background: none;
+  border-bottom: 2px solid black;
+
+  span {
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+  }
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
+}
+
+.sidebar__control {
+  display: none;
+
+  &:checked + .sidebar {
+    transform: translateX(0);
+    pointer-events: all;
+  }
+}
+
+.nav__menu__close {
+  right: 5px;
+  top: 10px;
+  width: 36px;
+  height: 10px;
+  position: absolute;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
+
+  &:before,
+  &:after {
+    content: " ";
+    position: absolute;
+    left: 15px;
+    height: 25px;
+    width: 2px;
+    background-color: black;
+  }
+
+  &:before {
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    transform: rotate(-45deg);
+  }
+}

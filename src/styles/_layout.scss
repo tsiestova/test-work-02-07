@@ -1,0 +1,15 @@
+.main {
+  min-height: 100%;
+  display: flex;
+  background: var(--color7);
+}
+
+.layout {
+  padding: 0 10px;
+  margin: auto;
+  display: block;
+
+  @include breakpoint(tablet) {
+    padding: 0 62px;
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap"
+            rel="stylesheet"
+    />
+    <title>Test Work</title>
+</head>
+<body>
+<main class="main">
+    <input type="checkbox" id="menu" class="sidebar__control">
+    <aside class="sidebar">
+        <label for="menu" class="nav__menu__close">X</label>
+        <nav class="nav__list">
+            <ul>
+                <li class="nav__item nav__item__home"><a href="#">
+                    Головна</a>
+                </li>
+                <li class="nav__item nav__item__orders1">
+                    <a href="#">
+
+                        Сторінка1</a>
+                </li>
+                <li class="nav__item nav__item__orders2">
+                    <a href="#">Сторінка2</a>
+                </li>
+                <li class="nav__item nav__item__orders3">
+                    <a href="#">Сторінка3</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="nav__item nav__item__settings">
+                    <a href="#">Налаштування</a>
+                </li>
+                </li>
+            </ul>
+
+        </nav>
+    </aside>
+    
+    <section class="card__wrap">
+        <header class="header">
+            <label for="menu" class="header__menu__btn">
+                <span></span>
+            </label>
+            <h1 class="card__heading">Start</h1>
+        </header>
+        <div class="layout">
+            <ul class="stepper">
+                <li class="stepper__item stepper__item__progress">
+                    <div class="item__box"></div>
+                    <div class="item__title">Стан1</div>
+                </li>
+                <li class="stepper__item stepper__item__progress">
+                    <div class="item__box"></div>
+                    <div class="item__title">Стан2</div>
+                </li>
+                <li class="stepper__item">
+                    <div class="item__box"></div>
+                    <div class="item__title">Стан3</div>
+                </li>
+                <li class="stepper__item">
+                    <div class="item__box"></div>
+                    <div class="item__title">Стан4</div>
+                </li>
+                <li class="stepper__item">
+                    <div class="item__box"></div>
+                    <div class="item__title">Стан5</div>
+                </li>
+            </ul>
+            <div class="blocks__wrap">
+                <div class="info__block">
+                    <div class="info__block__heading">Information</div>
+                    <div class="info__block__number">
+                        <span class="info__block__number__title">Info Number:</span>
+                        <span class="info__block__number__value">903049</span>
+                    </div>
+                    <div class="info__block__place">
+                        <span class="info__block__place__title">Pick up Place:</span>
+                        <span class="info__block__place__value">Sweden</span>
+                    </div>
+                </div>
+
+                <div class="location__block">
+                    <div class="location__block__inner">
+                        <div class="location__block__heading">We are here</div>
+                        <div class="location__block__content">Long time to go</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="order__block">
+                <div class="order__block__heading">Перезамовте Багаж</div>
+                <form class="order__form">
+                    <label for="select1">Дропдаун1</label>
+                    <div class="select">
+                        <select id="select1">
+                            <option>Select option</option>
+                            <option value="1">First value</option>
+                            <option value="2">Second value</option>
+                            <option value="3">Third value</option>
+                        </select>
+                    </div>
+                    <label for="select2">Дропдаун2</label>
+                    <div class="select">
+                        <select id="select2">
+                            <option>Select option</option>
+                            <option value="1">First value</option>
+                            <option value="2">Second value</option>
+                            <option value="3">Third value</option>
+                        </select>
+                    </div>
+                    <div class="btn__submit__wrap">
+                        <button type="submit" class="btn__submit">Done</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
